@@ -32,4 +32,4 @@ while x < 120:
     a.rt(11.1111)
     x = x+1
 
-s.exitonclick()
+done()
