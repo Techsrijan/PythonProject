@@ -1,3 +1,4 @@
+import time
 fruit={"apple","Grpaes"}
 print(fruit)
 fruit.add("orange")
@@ -47,3 +48,6 @@ print(c)
 #clear operation
 num.clear()
 print(num)
+for i in s1:
+    time.sleep(2)
+    print(i)
