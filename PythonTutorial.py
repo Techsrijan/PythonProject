@@ -4,3 +4,5 @@ print("thank you")
 
 print("hello")
 
+print(r"hello \n how r u?")
+
