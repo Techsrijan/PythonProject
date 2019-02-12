@@ -1,4 +1,6 @@
+import time
 str = "welcome in Python"
+time.sleep(2)
 print(str)
 #to create sentence case
 print(str.capitalize())
