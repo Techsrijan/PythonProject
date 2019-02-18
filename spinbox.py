@@ -1,4 +1,5 @@
 from tkinter import *
+import cx_Freeze
 
 
 def Clickme():
