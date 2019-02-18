@@ -6,7 +6,7 @@ def Clickme():
 
 bob=Tk()
 s=StringVar()
-en=Entry(bob, textvariable= s)
+en=Entry(bob, textvariable= s,insertwidth=3)
 s.set("Hello")
 en.pack()
 b=Button(bob,text="Message Box",command=Clickme)
