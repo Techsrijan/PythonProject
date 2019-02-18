@@ -11,7 +11,7 @@ def Clickme():
         print(l.get(item))
 
 bob = Tk()
-l= Listbox(bob,width=50,selectmode=EXTENDED)
+l = Listbox(bob,width=50,selectmode=EXTENDED)
 l.insert(1,"apple")
 l.insert(2,"orange")
 l.insert(3,"orange")
