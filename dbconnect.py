@@ -5,11 +5,11 @@ mycursor=conn.cursor()
                      (id int primary key,
                      name varchar(20)
                      )""")'''
-#mycursor.execute(" insert into detail(id,name)values(2,'Ram');")
-#print("Data inserted successfully")
+mycursor.execute(" insert into detail(id,name)values(5,'Ram');")
+print("Data inserted successfully")
 #mycursor.execute(" update detail set name='Shyam' where id=2;")
 #print("Data updated successfully")
-mycursor.execute(" delete from detail where id=2;")
+#mycursor.execute(" delete from detail where id=2;")
 print("Data deleted successfully")
 
 conn.commit()

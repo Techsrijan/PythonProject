@@ -3,7 +3,7 @@ from tkinter import filedialog
 
 
 def openfile():
-    f=filedialog.askopenfile(initialdir="/",title="Select file",filetypes=(("text file","*.txt"),("all files","*.*")))
+    f=filedialog.askopenfile(initialdir="c://",title="Select file",filetypes=(("text file","*.txt"),("all files","*.*")))
     for value in f:
         print(value)
 
